@@ -1,0 +1,19 @@
+{
+    ! Tonto input file for CIF Processing.
+
+    basis_directory= "C:/Program Files/CrystalExplorer/basis_sets"
+
+    ! Read the CIF and data block ...
+ 
+    CIF= {
+       file_name= "F:/College/Research Paper Work/Superconductor/Dataset/3DSC-main/superconductors_3D/data/final/MP/cifs/Ag0.02Ge2Pd1.98Sr1-MP-mp-978986-synth_doped.cif"
+       CH_bond_length= 1.083 angstrom
+       NH_bond_length= 1.009 angstrom
+       OH_bond_length= 0.983 angstrom
+       BH_bond_length= 1.18 angstrom
+    }
+    cx_uses_angstrom= TRUE
+    CX_file_name= "F:/College/Research Paper Work/Superconductor/Dataset/3DSC-main/superconductors_3D/data/final/MP/cifs/Ag0.cxc"
+    process_CIF_for_CX
+ 
+}
